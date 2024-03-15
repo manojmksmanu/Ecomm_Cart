@@ -1,9 +1,9 @@
 import React from 'react'
-
+import { FaCartArrowDown } from "react-icons/fa";
 const Navbar = () => {
     return (
         <div className='md:w-full flex justify-center'>
-            <div className=" rounded-xl bg-indigo-100 md:backdrop-blur-md md:w-10/12 flex justify-between items-center p-4 px-8">
+            <div className="bg-indigo-100 md:w-screen md:backdrop-blur-md  flex justify-between items-center p-4 px-8">
                 <div className='text-3xl font-bold '>
                     ECOMM
                 </div>
@@ -23,7 +23,7 @@ const Navbar = () => {
 
                 <div>
                     <button>
-                        Cart
+                        <FaCartArrowDown className='text-2xl' />
                     </button>
                 </div>
             </div>
